@@ -1,7 +1,9 @@
 <?php
 
-$i = 1;
-while($i <= 10) {
-     echo $i . 'x16=' . $i*16 . '<br/>';
-     $i++; 
-}
+$array = [
+    'name' => 'Rokeybul Alam',
+    'age' => 23,
+    'university' => 'AHC',
+];
+
+print_r($array);
