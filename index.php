@@ -1,9 +1,7 @@
 <?php
+$i = 1;
 
-$array = [
-    'name' => 'Rokeybul Alam',
-    'age' => 23,
-    'university' => 'AHC',
-];
-
-print_r($array);
+do {
+    echo $i . 'x13=' . $i*13 . '<br/>';
+$i++;
+} while($i <= 10);
